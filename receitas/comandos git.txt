@@ -1,0 +1,30 @@
+git
+
+	gerar ssh
+		usar git bash
+			ssh-keygen -t ed25519 -C pakilhas@gmail.com
+			navegar ate a pasta que salvou a chave (cd /c/users/Kira.DESKTOP-M7CJ0K8/.ssh)
+				ir no git hub e colando a chave
+			cat id_ed25519.pub
+			no basg eval $(ssh-agent -s)
+			ssh-add id_ed25519
+
+
+
+	git init - inciiar repositorio
+	git add " projeto.pro " - mover arquivos
+	git add .
+	git commit -m "o que foi feito na versao (origin)" - criar commit
+		configurar usuario git
+		 git config --global user.email "you@example.com"
+		 git config --global user.name "Your Name"
+		criar novo projeto no git hub e pegar o link
+	git remote add origin (link)
+	git push
+
+
+comandos CMD
+		-a mostra arquivos ocultos (ls -a)
+	mkdir - criar pastas
+	cd - mover pelas pastas
+		cd .. -volta 1 nivel
