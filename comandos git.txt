@@ -26,5 +26,7 @@ git
 comandos CMD
 		-a mostra arquivos ocultos (ls -a)
 	mkdir - criar pastas
+	mv - mover
 	cd - mover pelas pastas
+	ECHO > (ARQUIVO.ARQUIVO) -criar arquivo
 		cd .. -volta 1 nivel
