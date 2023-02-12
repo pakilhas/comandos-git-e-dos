@@ -1,0 +1,7 @@
+git
+openssl sha1 arquivo.txt - mostrar encriptação
+
+	objetos internos
+		BLOBS bolhas
+		TREES	arvores, armazena os BLOB
+		COMMITS junta tudo
