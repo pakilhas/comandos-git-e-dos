@@ -14,14 +14,19 @@ git
 	git init - inciiar repositorio
 	git add " projeto.pro " - mover arquivos
 	git add .
+	git add * adiciona todas as modificações
 	git commit -m "o que foi feito na versao (origin)" - criar commit
 		configurar usuario git
 		 git config --global user.email "you@example.com"
 		 git config --global user.name "Your Name"
 		criar novo projeto no git hub e pegar o link
 	git remote add origin (link)
-	git push
-
+		git remote -v -lista repositorios
+	git push -empurrar
+		git push origin master
+	git pull -puxar informações do diretorio 
+		git pull origin master 
+		git clone (link) -clonar diretorio
 
 comandos CMD
 		-a mostra arquivos ocultos (ls -a)
